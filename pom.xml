@@ -11,8 +11,9 @@
 	<groupId>mantletechsolutions</groupId>
 	<artifactId>cards</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<packaging>jar</packaging>
+	<name>cards</name>
+	<description>Microservice for Cards</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -144,6 +145,20 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.3.2</version>
+				<configuration>
+					<from>
+						<image>eclipse-temurin:17-jre-jammy</image>
+					</from>
+
+					<to>
+						<image>asokure/${project.artifactId}:dev</image>
+					</to>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
