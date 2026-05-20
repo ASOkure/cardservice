@@ -3,7 +3,8 @@ server:
 spring:
   application:
     name: "cards"
-  profiles: "prod"
+  profiles:
+    active: "prod"
 
   datasource:
     url: jdbc:h2:mem:testdb
