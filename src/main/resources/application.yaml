@@ -50,5 +50,5 @@ info:
 logging:
   level:
     com:
-      eazybytes:
+      mantletechsolutions:
         cards: DEBUG
